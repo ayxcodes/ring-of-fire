@@ -1,4 +1,4 @@
 <mat-card>
-    <mat-card-title>{{ title }}</mat-card-title>
-    <mat-card-content>{{ description }}</mat-card-content>
+    <mat-card-title>{{ card ? title : 'Add all players to the game!'}}</mat-card-title>
+    <mat-card-content>{{ card ? description : 'Then click on the card stack to pick the first card and start the game!'}}</mat-card-content>
 </mat-card>
