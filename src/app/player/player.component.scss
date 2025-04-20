@@ -2,7 +2,7 @@
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: #552200;
+    background-color: rgba(50, 50, 50, 0.7);
     border-radius: 50px 0 0 50px;
 
     span {
@@ -12,10 +12,14 @@
     }
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         object-fit: cover;
         border-radius: 100%;
         border: 2px solid #552200;
     }
+}
+
+.active-player {
+    background-color: #552200 !important;
 }
