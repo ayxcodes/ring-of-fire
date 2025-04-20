@@ -52,6 +52,13 @@
     bottom: 32px;
 }
 
+.pin-bottom {
+    position: absolute;
+    bottom: 32px;
+    right: 150px;
+    left: 150px;
+}
+
 @keyframes pick-card-animation {
     0% {
         transform: scale(1.5);
