@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+.player-position {
+    position: absolute;
+    right: 0;
+}
+
 .card-stack {
     position: relative;
     img {
