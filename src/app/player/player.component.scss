@@ -2,10 +2,11 @@
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: darkred;
+    background-color: #552200;
     border-radius: 50px 0 0 50px;
 
     span {
+        color: whitesmoke;
         font-size: 32px;
         margin-left: 16px;
     }
@@ -15,5 +16,6 @@
         height: 100px;
         object-fit: cover;
         border-radius: 100%;
+        border: 2px solid #552200;
     }
 }
